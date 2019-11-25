@@ -11,6 +11,5 @@ attack.onCreate.overload("android.os.Bundle").implementation = function(key_val)
 	  console.log("Found instance: "+this.key_val.value);
 	};
 
-
-
 });
+//frida -U -f coc.on -l co3.js --no-paus
