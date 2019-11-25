@@ -12,4 +12,4 @@ attack.onCreate.overload("android.os.Bundle").implementation = function(key_val)
 	};
 
 });
-//frida -U -f coc.on -l co3.js --no-paus
+//frida -U -f coc.on -l co2.js --no-paus
